@@ -48,7 +48,7 @@ const SnapCamera = () => {
 
     await session.setSource(source);
 
-    source.setTransform(Transform2D.MirrorX);
+    //source.setTransform(Transform2D.MirrorX);
 
     session.play();
   };
